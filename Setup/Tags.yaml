@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: TAG
+tag:
+- name: Test
+- allowedValues:
+  - Bar
+  name: Test2
+- name: newone
