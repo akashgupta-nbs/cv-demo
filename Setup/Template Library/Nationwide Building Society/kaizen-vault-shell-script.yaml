@@ -1,6 +1,7 @@
 harnessApiVersion: '1.0'
 type: SHELL_SCRIPT
 scriptString: |+
+  #!/bin/bash
   pwd
   echo "testing vault"
   export VAULT_ADDR=https://kmaas.nbs-shared-security-test.aws.nbscloud.co.uk/
