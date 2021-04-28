@@ -7,9 +7,9 @@ scriptString: |+
   export VAULT_SKIP_VERIFY=true
   export VAULT_NAMESPACE=aws/nbs-shared-cbj-dev
   export SA_TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
-  export VAULT_TOKEN=$(./vault write auth/kubernetes-harness-nbs-shared-cbj-dev/login role=cicd -path=/kubernetes-harness-nbs-shared-cbj-dev jwt="$SA_TOKEN" -format="json" | /tmp/jq-linux64 -r '.auth.client_token')
+  export VAULT_TOKEN=$(vault write auth/kubernetes-harness-nbs-shared-cbj-dev/login role=cicd -path=/kubernetes-harness-nbs-shared-cbj-dev jwt="$SA_TOKEN" -format="json" | /tmp/jq-linux64 -r '.auth.client_token')
 
-  export secret="$(./vault kv get -field=${vault_secret_key} ${vault_secret_path})"
+  export secret="$(vault kv get -field=${vault_secret_key} ${vault_secret_path})"
 
 
 
