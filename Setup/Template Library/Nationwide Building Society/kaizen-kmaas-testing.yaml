@@ -17,3 +17,10 @@ scriptString: |+
 scriptType: BASH
 secretOutputVars: password
 timeoutMillis: 600000
+variables:
+- name: vault_secret_path
+  value: secrets/test-ag
+- name: vault_secret_key1
+  value: username
+- name: vault_secret_key2
+  value: password
