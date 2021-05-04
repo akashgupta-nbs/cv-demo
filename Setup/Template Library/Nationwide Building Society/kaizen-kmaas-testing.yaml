@@ -11,16 +11,16 @@ scriptString: |+
   export SA_TOKEN=$(cat /var/run/secrets/kubernetes.io/serviceaccount/token)
   export VAULT_TOKEN=$(vault write auth/kubernetes-harness-nbs-shared-cbj-dev/login role=cicd -path=/kubernetes-harness-nbs-shared-cbj-dev jwt="$SA_TOKEN" -format="json" | /tmp/jq-linux64 -r '.auth.client_token')
 
-  export uname="$(vault kv get -field=${vault_secret_key1} ${vault_secret_path})"
-  export password="$(vault kv get -field=${vault_secret_key2} ${vault_secret_path})"
+  export cert="$(vault kv get -field=${vault_secret_key1} ${vault_secret_path})"
+  #export uname="$(vault kv get -field=${vault_secret_key1} ${vault_secret_path})"
+  #export password="$(vault kv get -field=${vault_secret_key2} ${vault_secret_path})"
+  echo "certificate: $cert"
 
 scriptType: BASH
 secretOutputVars: password
 timeoutMillis: 600000
 variables:
 - name: vault_secret_path
-  value: secrets/test-ag
+  value: secrets/sample-cert
 - name: vault_secret_key1
-  value: username
-- name: vault_secret_key2
-  value: password
+  value: cert
