@@ -14,7 +14,9 @@ scriptString: |+
   export cert="$(vault kv get -field=${vault_secret_key1} ${vault_secret_path})"
   #export uname="$(vault kv get -field=${vault_secret_key1} ${vault_secret_path})"
   #export password="$(vault kv get -field=${vault_secret_key2} ${vault_secret_path})"
-  echo "certificate: $cert"
+  echo "certificate: $cert "
+  echo "$cert" >> /opt/harness-delegate/cert.txt
+  cat cert.txt
 
 scriptType: BASH
 secretOutputVars: password
@@ -24,3 +26,4 @@ variables:
   value: secrets/sample-cert
 - name: vault_secret_key1
   value: cert
+- name: cert"
