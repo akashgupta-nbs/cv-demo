@@ -16,7 +16,7 @@ scriptString: |+
   #export password="$(vault kv get -field=${vault_secret_key2} ${vault_secret_path})"
   echo "certificate: $cert "
   echo "$cert" >> /opt/harness-delegate/cert.txt
-  cat cert.txt
+  cat /opt/harness-delegate/cert.txt
 
 scriptType: BASH
 secretOutputVars: password
