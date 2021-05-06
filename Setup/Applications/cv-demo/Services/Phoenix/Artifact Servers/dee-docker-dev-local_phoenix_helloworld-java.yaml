@@ -1,0 +1,8 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+imageName: phoenix/helloworld-java
+metadataOnly: true
+repositoryName: dee-docker-dev-local
+repositoryType: docker
+serverName: phoenix-artifactory
+useDockerFormat: false
