@@ -6,9 +6,7 @@ skipValidation: false
 usageRestrictions:
   appEnvRestrictions:
   - appFilter:
-      entityNames:
-      - Kaizen-java
-      filterType: SELECTED
+      filterType: ALL
     envFilter:
       filterTypes:
       - NON_PROD
