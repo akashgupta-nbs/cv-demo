@@ -1,0 +1,18 @@
+harnessApiVersion: '1.0'
+type: GOVERNANCE_CONFIG
+disableAllDeployments: false
+timeRangeBasedFreezeConfigs:
+- type: TIME_RANGE_BASED_FREEZE_CONFIG
+  appSelections:
+  - apps:
+    - kaizen-onboarding
+    envSelection:
+    - filterType: ALL_PROD
+    filterType: CUSTOM
+  applicable: true
+  name: custom-freeze
+  timeRange:
+    from: '1619619761967'
+    to: '1619623361967'
+  userGroups:
+  - Account Administrator
