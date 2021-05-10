@@ -9,7 +9,7 @@ timeRangeBasedFreezeConfigs:
     envSelection:
     - filterType: ALL_PROD
     filterType: CUSTOM
-  applicable: true
+  applicable: false
   name: custom-freeze
   timeRange:
     from: '1619619761967'
