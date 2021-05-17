@@ -19,15 +19,15 @@ timeRangeBasedFreezeConfigs:
 - type: TIME_RANGE_BASED_FREEZE_CONFIG
   appSelections:
   - apps:
-    - kaizen-load-test
+    - cicd-demo
     envSelection:
-    - filterType: ALL
+    - filterType: ALL_PROD
     filterType: CUSTOM
   applicable: false
-  name: kaizen-load-test-freeze
+  name: kaizen-delpoyment-test-freeze
   timeRange:
-    from: '1621265580653'
-    to: '1621441980653'
+    from: '1621362780962'
+    to: '1622489580963'
   userGroups:
   - CD Project Team
   - RG_Kaizen_RBAC_Admins
