@@ -23,7 +23,7 @@ timeRangeBasedFreezeConfigs:
     envSelection:
     - filterType: ALL_PROD
     filterType: CUSTOM
-  applicable: false
+  applicable: true
   name: kaizen-delpoyment-test-freeze
   timeRange:
     from: '1621362780962'
