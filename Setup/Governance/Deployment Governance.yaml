@@ -16,3 +16,18 @@ timeRangeBasedFreezeConfigs:
     to: '1619623361967'
   userGroups:
   - Account Administrator
+- type: TIME_RANGE_BASED_FREEZE_CONFIG
+  appSelections:
+  - apps:
+    - kaizen-load-test
+    envSelection:
+    - filterType: ALL
+    filterType: CUSTOM
+  applicable: false
+  name: kaizen-load-test-freeze
+  timeRange:
+    from: '1621265580653'
+    to: '1621441980653'
+  userGroups:
+  - CD Project Team
+  - RG_Kaizen_RBAC_Admins
