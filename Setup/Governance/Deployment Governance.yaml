@@ -26,8 +26,8 @@ timeRangeBasedFreezeConfigs:
   applicable: true
   name: kaizen-delpoyment-test-freeze
   timeRange:
-    from: '1621294380856'
-    to: '1621297980856'
+    from: '1621294381070'
+    to: '1622161980214'
   userGroups:
   - CD Project Team
   - RG_Kaizen_RBAC_Admins
