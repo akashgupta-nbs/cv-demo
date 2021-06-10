@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+password: safeharness:nlJBmR4fTwG4GVENuR09tg
+url: https://fls-docker-dev-local.artifactory.aws.nbscloud.co.uk/
+username: fls-ci
