@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+delegateSelectors:
+- kaizen-eng2-delegate-vmevcr-0
+password: gcpkms:FCCBpm8kQ5uFVKOV8DGycA
+url: https://artifactory.aws.nbscloud.co.uk/artifactory
+username: kaizen-user
