@@ -5,4 +5,5 @@ tag:
 - allowedValues:
   - Bar
   name: Test2
+- name: blue
 - name: newone
