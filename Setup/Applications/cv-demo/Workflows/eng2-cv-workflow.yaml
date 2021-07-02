@@ -2,7 +2,7 @@ harnessApiVersion: '1.0'
 type: CANARY
 concurrencyStrategy: INFRA
 description: 'This is to verify CV integration with harness. '
-envName: dev-canary
+envName: eng2-cv-environment
 failureStrategies:
 - executionScope: WORKFLOW
   failureTypes:
@@ -98,7 +98,6 @@ phases:
   statefulSet: false
 rollbackPhases:
 - type: KUBERNETES
-  computeProviderName: Kubernetes Cluster - Kaizen Testing Delegate
   daemonSet: false
   infraDefinitionName: dev -canary-infra
   name: Rollback Canary
@@ -117,7 +116,6 @@ rollbackPhases:
   serviceName: canary-deploy-service
   statefulSet: false
 - type: KUBERNETES
-  computeProviderName: Kubernetes Cluster - Kaizen Testing Delegate
   daemonSet: false
   infraDefinitionName: dev -canary-infra
   name: Rollback Primary
