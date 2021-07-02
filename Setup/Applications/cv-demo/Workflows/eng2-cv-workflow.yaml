@@ -113,17 +113,6 @@ phases:
   provisionNodes: false
   serviceName: canary-deploy-service
   statefulSet: false
-preDeploymentSteps:
-- type: EMAIL
-  name: Akash Gupta
-  properties:
-    body: 'Canary deployment trigger for ${app.name} - workflow: ${workflow.name}'
-    ccAddress: manbir.bhullar@nationwide.co.uk
-    subject: 'Canary deployment trigger for ${app.name} - workflow: ${workflow.name}'
-    templateUuid: null
-    templateVariables: null
-    templateVersion: null
-    toAddress: akash.gupta@nationwide.co.uk
 rollbackPhases:
 - type: KUBERNETES
   computeProviderName: Kubernetes Cluster - Kaizen Testing Delegate
