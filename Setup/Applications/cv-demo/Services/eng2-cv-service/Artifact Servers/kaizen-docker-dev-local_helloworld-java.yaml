@@ -1,0 +1,9 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+dockerRepositoryServer: kaizen-docker.artifactory.aws.nbscloud.co.uk
+imageName: helloworld-java
+metadataOnly: true
+repositoryName: kaizen-docker-dev-local
+repositoryType: docker
+serverName: kaizen-docker
+useDockerFormat: false
