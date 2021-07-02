@@ -12,4 +12,11 @@ usageRestrictions:
     envFilter:
       filterTypes:
       - NON_PROD
+  - appFilter:
+      entityNames:
+      - cv-demo
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
 useKubernetesDelegate: true
