@@ -9,16 +9,6 @@ failureStrategies:
   - APPLICATION_ERROR
   repairActionCode: ROLLBACK_WORKFLOW
   retryCount: 0
-notificationRules:
-- conditions:
-  - SUCCESS
-  - FAILED
-  - PAUSED
-  executionScope: WORKFLOW
-  notificationGroupAsExpression: false
-  userGroupAsExpression: false
-  userGroupIds:
-  - E9c-x3KdTsCLYgUyuHQqLg
 phases:
 - type: KUBERNETES
   computeProviderName: Kubernetes Cluster - Kaizen Testing Delegate
