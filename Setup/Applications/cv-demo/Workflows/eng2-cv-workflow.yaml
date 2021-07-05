@@ -39,6 +39,20 @@ phases:
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Verify
+    steps:
+    - type: PROMETHEUS
+      name: Prometheus
+      properties:
+        analysisServerConfigId: 7pbFbVjQRyG8nnKtKfMghw
+        analysisTolerance: LOW
+        comparisonStrategy: COMPARE_WITH_CURRENT
+        customThresholdRefId: 6bd518060eeb4fceb75b8c061a9ac168
+        timeDuration: 5
+        timeSeriesToAnalyze:
+        - metricName: CPU metric
+          metricType: INFRA
+          txnName: infra
+          url: container_cpu_usage_seconds_total{namespace="harness-delegate",pod="$hostName",container="POD"}
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up
