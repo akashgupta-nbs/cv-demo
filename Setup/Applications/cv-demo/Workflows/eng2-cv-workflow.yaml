@@ -47,6 +47,9 @@ phases:
         analysisTolerance: LOW
         comparisonStrategy: COMPARE_WITH_CURRENT
         customThresholdRefId: 6bd518060eeb4fceb75b8c061a9ac168
+        templateUuid: null
+        templateVariables: null
+        templateVersion: null
         timeDuration: 5
         timeSeriesToAnalyze:
         - metricName: CPU metric
