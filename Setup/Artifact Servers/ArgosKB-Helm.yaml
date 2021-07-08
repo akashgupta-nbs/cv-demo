@@ -1,0 +1,19 @@
+harnessApiVersion: '1.0'
+type: HTTP_HELM_REPO
+url: https://artifactory.aws.nbscloud.co.uk/artifactory/epaas-helm/
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - Cloud Platform AWS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - Cloud Platform AWS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
