@@ -1,6 +1,6 @@
 harnessApiVersion: '1.0'
 type: PROMETHEUS
-prometheusUrl: https://prometheus-new-kaizen-eng2-eks.nbs-shared-cbj-dev.aws.nbscloud.co.uk/
+prometheusUrl: https://prometheus-kaizen-eng2-eks.nbs-shared-cbj-dev.aws.nbscloud.co.uk/
 usageRestrictions:
   appEnvRestrictions:
   - appFilter:
