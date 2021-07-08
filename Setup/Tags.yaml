@@ -7,4 +7,5 @@ tag:
   name: Test2
 - name: blue
 - name: eks-epaas-test-gatekeeper
+- name: group
 - name: newone
