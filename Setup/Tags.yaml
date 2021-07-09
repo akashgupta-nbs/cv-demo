@@ -9,3 +9,4 @@ tag:
 - name: eks-epaas-test-gatekeeper
 - name: group
 - name: newone
+- name: non-prod
