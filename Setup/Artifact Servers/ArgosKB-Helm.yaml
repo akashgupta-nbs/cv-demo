@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: HTTP_HELM_REPO
 password: gcpkms:0WQUF9BFTXGZ2y3lubG9Dg
-url: https://epaas-helm-rel-local.artifactory.aws.nbscloud.co.uk:443/artifactory/epaas-helm/
+url: https://artifactory.aws.nbscloud.co.uk:443/artifactory/epaas-helm/
 username: epaas-ci
