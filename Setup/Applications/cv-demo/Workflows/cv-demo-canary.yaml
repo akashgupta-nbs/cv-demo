@@ -14,8 +14,8 @@ notificationRules:
   executionScope: WORKFLOW
   notificationGroupAsExpression: false
   userGroupAsExpression: false
-  userGroupIds:
-  - Lh9O151sSmC3_XapvUbb-w
+  userGroupNames:
+  - Account Administrator
 phases:
 - type: KUBERNETES
   computeProviderName: Kubernetes Cluster - Kaizen Testing Delegate
@@ -115,7 +115,7 @@ phases:
       properties:
         approvalStateType: USER_GROUP
         timeoutMillis: 3600000
-        userGroups: null
+        userGroupNames: null
     stepsInParallel: false
   - type: K8S_PHASE_STEP
     name: Wrap Up

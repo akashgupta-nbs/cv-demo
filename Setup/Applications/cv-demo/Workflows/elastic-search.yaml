@@ -14,8 +14,8 @@ notificationRules:
   executionScope: WORKFLOW
   notificationGroupAsExpression: false
   userGroupAsExpression: false
-  userGroupIds:
-  - Lh9O151sSmC3_XapvUbb-w
+  userGroupNames:
+  - Account Administrator
 phases:
 - type: KUBERNETES
   computeProviderName: cv-demo

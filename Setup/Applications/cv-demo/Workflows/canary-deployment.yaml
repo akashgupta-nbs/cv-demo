@@ -15,8 +15,8 @@ notificationRules:
   executionScope: WORKFLOW
   notificationGroupAsExpression: false
   userGroupAsExpression: false
-  userGroupIds:
-  - Lh9O151sSmC3_XapvUbb-w
+  userGroupNames:
+  - Account Administrator
 - conditions:
   - SUCCESS
   - FAILED
@@ -24,8 +24,8 @@ notificationRules:
   executionScope: WORKFLOW
   notificationGroupAsExpression: false
   userGroupAsExpression: false
-  userGroupIds:
-  - E9c-x3KdTsCLYgUyuHQqLg
+  userGroupNames:
+  - RG_Kaizen_RBAC_Admins
 phases:
 - type: KUBERNETES
   computeProviderName: Kubernetes Cluster - Kaizen Testing Delegate
@@ -94,8 +94,8 @@ phases:
       properties:
         approvalStateType: USER_GROUP
         timeoutMillis: 86400000
-        userGroups:
-        - E9c-x3KdTsCLYgUyuHQqLg
+        userGroupNames:
+        - RG_Kaizen_RBAC_Admins
     - type: K8S_DEPLOYMENT_ROLLING
       name: Rollout Deployment
       properties:
