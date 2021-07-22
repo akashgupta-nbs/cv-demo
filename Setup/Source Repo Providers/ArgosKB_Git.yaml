@@ -1,7 +1,7 @@
 harnessApiVersion: '1.0'
 type: GIT
 delegateSelectors:
-- argos-helm-kb
+- kaizen-eng2-delegate-vmevcr-0
 keyAuth: true
 sshKeyName: kaizen-github-config-ssh
 url: git@github.com:nationwide-building-society/epaas-components.git
@@ -11,6 +11,13 @@ usageRestrictions:
   - appFilter:
       entityNames:
       - Cloud Platform AWS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - Kaizen-java
       filterType: SELECTED
     envFilter:
       filterTypes:
