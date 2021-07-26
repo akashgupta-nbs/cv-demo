@@ -1,0 +1,15 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+delegateSelectors:
+- kaizen-eng5-delegate-vmevcr-0
+skipValidation: false
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - Kaizen-Spartan-POC
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
+useKubernetesDelegate: true
