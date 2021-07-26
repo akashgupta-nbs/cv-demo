@@ -22,3 +22,10 @@ usageRestrictions:
     envFilter:
       filterTypes:
       - NON_PROD
+  - appFilter:
+      entityNames:
+      - Kaizen-Spartan-POC
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
