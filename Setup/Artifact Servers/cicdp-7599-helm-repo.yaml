@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: HTTP_HELM_REPO
-password: gcpkms:FCCBpm8kQ5uFVKOV8DGycA
-url: https://artifactory.aws.nbscloud.co.uk/artifactory/ccoe-helm
+password: gcpkms:kaizen-user-artifactory
+url: https://artifactory.aws.nbscloud.co.uk/artifactory/ccoe-helm/
 username: kaizen-ci
