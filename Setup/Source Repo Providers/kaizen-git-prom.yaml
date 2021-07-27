@@ -11,7 +11,7 @@ usageRestrictions:
   appEnvRestrictions:
   - appFilter:
       entityNames:
-      - Kaizen-java
+      - Kaizen-Spartan-POC
       filterType: SELECTED
     envFilter:
       filterTypes:
