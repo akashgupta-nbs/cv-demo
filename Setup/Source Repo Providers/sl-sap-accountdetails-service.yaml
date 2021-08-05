@@ -1,0 +1,10 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: master
+delegateSelectors:
+- sl-onprem-dev-vmevcr-0
+keyAuth: false
+password: gcpkms:sl-sap-accountdetails-service
+url: https://tfs2017.nbsnet.co.uk/tfs/ColC/SpeedLayer/_git/sl-sap-accountdetails-service
+urlType: REPO
+username: svcspeedlayerjenkins
