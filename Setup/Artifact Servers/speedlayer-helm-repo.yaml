@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: HTTP_HELM_REPO
+password: gcpkms:sl-helm-repo-password
+url: https://artifactory.aws.nbscloud.co.uk/artifactory/speedlayer-helm
+username: speedlayer-ci
