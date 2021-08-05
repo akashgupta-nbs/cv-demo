@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+authType: SERVICE_ACCOUNT
+masterUrl: https://slintocpcluster.nbsdev.co.uk:8443
+serviceAccountToken: gcpkms:SpeedLayer_OnPrem_DEV
+skipValidation: false
+useKubernetesDelegate: false
