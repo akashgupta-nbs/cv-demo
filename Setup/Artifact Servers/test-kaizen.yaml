@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: HTTP_HELM_REPO
+password: gcpkms:kaizen-user-artifactory
+url: https://artifactory.aws.nbscloud.co.uk/artifactory/epaas-helm/
+username: kaizen-ci
