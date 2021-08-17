@@ -1,7 +1,7 @@
 harnessApiVersion: '1.0'
 type: ARTIFACTORY
 delegateSelectors:
-- sl-onprem-dev
+- sl-onprem-dvk
 password: gcpkms:ci_serviceintegration_dev
 url: https://artifactory.nbsnet.co.uk/artifactory
 username: ci_serviceintegration_dev
