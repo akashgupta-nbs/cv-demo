@@ -1,6 +1,7 @@
 harnessApiVersion: '1.0'
 type: KUBERNETES_CLUSTER
 delegateSelectors:
+- argos-helm-kb-vmevcr-0
 - argos-helm-kb
 skipValidation: false
 usageRestrictions:
