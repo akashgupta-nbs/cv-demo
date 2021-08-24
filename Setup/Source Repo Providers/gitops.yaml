@@ -1,7 +1,0 @@
-harnessApiVersion: '1.0'
-type: GIT
-keyAuth: false
-password: gcpkms:gitops
-url: https://github.com/kartheek433/test123.git
-urlType: REPO
-username: abc
