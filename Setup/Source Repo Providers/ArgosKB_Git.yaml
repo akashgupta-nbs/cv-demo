@@ -1,8 +1,8 @@
 harnessApiVersion: '1.0'
 type: GIT
 delegateSelectors:
-- kaizen-eng5-delegate-vmevcr-0
-- kaizen-eng5-delegate
+- argos-helm-kb
+- argos-helm-kb-vmevcr-0
 keyAuth: true
 sshKeyName: kaizen-github-config-ssh
 url: git@github.com:nationwide-building-society/epaas-components.git
