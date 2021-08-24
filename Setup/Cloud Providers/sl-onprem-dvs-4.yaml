@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+authType: SERVICE_ACCOUNT
+masterUrl: https://api.ocp4dvs.nbsdev.co.uk:6443
+serviceAccountToken: gcpkms:sl-onprem-dvs-4-sa
+skipValidation: false
+useKubernetesDelegate: false
