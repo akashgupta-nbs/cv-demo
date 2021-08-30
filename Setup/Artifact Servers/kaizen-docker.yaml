@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: ARTIFACTORY
-password: gcpkms:FCCBpm8kQ5uFVKOV8DGycA
+password: gcpkms:kaizen-user-artifactory
 url: https://artifactory.aws.nbscloud.co.uk/artifactory
 username: kaizen-user
