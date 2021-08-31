@@ -1,7 +1,5 @@
 harnessApiVersion: '1.0'
 type: GIT
-delegateSelectors:
-- sl-onprem-dvk
 keyAuth: false
 password: gcpkms:sl-tfs-service
 url: https://tfs2017.nbsnet.co.uk/tfs/ColC/SpeedLayer/_git/
