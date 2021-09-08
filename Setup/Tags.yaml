@@ -7,6 +7,7 @@ tag:
   name: Test2
 - name: blue
 - name: eks-epaas-test-gatekeeper
+- name: fls-dev
 - name: group
 - name: newone
 - name: non-prod
