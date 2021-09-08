@@ -10,6 +10,15 @@ usageRestrictions:
       - FLS
       filterType: SELECTED
     envFilter:
+      entityNames:
+      - Dev
+      filterTypes:
+      - SELECTED
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
       filterTypes:
       - PROD
   - appFilter:
