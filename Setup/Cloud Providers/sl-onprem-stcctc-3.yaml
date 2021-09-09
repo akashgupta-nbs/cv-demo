@@ -3,5 +3,5 @@ type: KUBERNETES_CLUSTER
 authType: SERVICE_ACCOUNT
 masterUrl: https://tcsliocpstc.nbsctc.co.uk:8443
 serviceAccountToken: gcpkms:sl-onprem-stcctc
-skipValidation: false
+skipValidation: true
 useKubernetesDelegate: false
