@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+authType: SERVICE_ACCOUNT
+masterUrl: https://cssliocpstc.nbsnet.co.uk:8443
+serviceAccountToken: gcpkms:sl-onprem-stcprd
+skipValidation: false
+useKubernetesDelegate: false
