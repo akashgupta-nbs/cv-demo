@@ -1,0 +1,19 @@
+harnessApiVersion: '1.0'
+type: DOCKER
+url: https://epaas-docker.artifactory.aws.nbscloud.co.uk/
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
