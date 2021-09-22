@@ -1,2 +1,5 @@
 harnessApiVersion: '1.0'
 type: APPLICATION
+branchName: master
+gitConnector: nbs-git-ag
+isGitSyncEnabled: true
