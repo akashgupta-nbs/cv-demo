@@ -2,6 +2,7 @@ harnessApiVersion: '1.0'
 type: KUBERNETES_CLUSTER
 delegateSelectors:
 - fls-dev-fls-harness-poc
+- fls-dev-chat-vmevcr-0
 skipValidation: true
 usageRestrictions:
   appEnvRestrictions:
