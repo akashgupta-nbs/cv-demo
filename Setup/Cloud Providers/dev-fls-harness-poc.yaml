@@ -2,7 +2,6 @@ harnessApiVersion: '1.0'
 type: KUBERNETES_CLUSTER
 delegateSelectors:
 - fls-dev-fls-harness-poc
-- fls-dev-chat
 skipValidation: true
 usageRestrictions:
   appEnvRestrictions:
@@ -12,7 +11,7 @@ usageRestrictions:
       filterType: SELECTED
     envFilter:
       entityNames:
-      - nbs-flshub-dev
+      - dev-fls-harness-poc
       filterTypes:
       - SELECTED
   - appFilter:
