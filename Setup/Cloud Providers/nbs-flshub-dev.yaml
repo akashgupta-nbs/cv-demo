@@ -11,7 +11,7 @@ usageRestrictions:
       filterType: SELECTED
     envFilter:
       entityNames:
-      - Dev
+      - nbs-flshub-dev
       filterTypes:
       - SELECTED
   - appFilter:
