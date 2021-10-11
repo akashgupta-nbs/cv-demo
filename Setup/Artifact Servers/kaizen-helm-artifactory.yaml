@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: ARTIFACTORY
-password: safeharness:FCCBpm8kQ5uFVKOV8DGycA
+password: gcpkms:kaizen-user-artifactory
 url: https://artifactory.aws.nbscloud.co.uk/artifactory/kubernetes-charts-storage-helm-remote/
 username: kaizen-user
