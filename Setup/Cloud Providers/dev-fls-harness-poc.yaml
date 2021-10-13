@@ -3,4 +3,15 @@ type: KUBERNETES_CLUSTER
 delegateSelectors:
 - fls-dev-fls-harness-poc
 skipValidation: false
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
+      entityNames:
+      - dev
+      filterTypes:
+      - SELECTED
 useKubernetesDelegate: true
