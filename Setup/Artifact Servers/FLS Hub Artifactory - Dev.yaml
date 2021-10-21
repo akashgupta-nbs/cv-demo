@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: DOCKER
 password: gcpkms:fls-ci-artifactory
-url: https://fls-docker-dev.artifactory.aws.nbscloud.co.uk/
+url: https://fls-docker-local-dev-local.artifactory.aws.nbscloud.co.uk/
 username: fls-ci
