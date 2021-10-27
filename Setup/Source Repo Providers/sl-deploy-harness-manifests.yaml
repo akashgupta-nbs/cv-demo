@@ -1,0 +1,34 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: master
+keyAuth: true
+providerType: GIT
+sshKeyName: sl-deploy-harness-manifests-key
+url: git@github.com:nationwide-building-society/sl-deploy-harness-manifests.git
+urlType: REPO
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - Speedlayer
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - Speedlayer
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
