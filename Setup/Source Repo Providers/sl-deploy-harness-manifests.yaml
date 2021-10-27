@@ -1,6 +1,8 @@
 harnessApiVersion: '1.0'
 type: GIT
 branch: master
+delegateSelectors:
+- speedlayer
 keyAuth: true
 providerType: GIT
 sshKeyName: sl-deploy-harness-manifests-key
