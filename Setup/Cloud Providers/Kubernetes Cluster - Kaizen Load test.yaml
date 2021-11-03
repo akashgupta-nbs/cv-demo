@@ -1,33 +1,31 @@
 harnessApiVersion: '1.0'
-type: GIT
+type: KUBERNETES_CLUSTER
 delegateSelectors:
-- argos-helm-kb
-- argos-helm-kb-vmevcr-0
-keyAuth: true
-providerType: GIT
-sshKeyName: kaizen-github-config-ssh
-url: git@github.com:nationwide-building-society/epaas-components.git
-urlType: REPO
+- load
+skipValidation: false
 usageRestrictions:
   appEnvRestrictions:
   - appFilter:
       entityNames:
-      - Cloud Platform AWS
+      - kaizen-load-test
       filterType: SELECTED
     envFilter:
       filterTypes:
       - NON_PROD
   - appFilter:
       entityNames:
-      - Kaizen-java
+      - kaizen-load-test
       filterType: SELECTED
     envFilter:
       filterTypes:
-      - NON_PROD
+      - PROD
   - appFilter:
       entityNames:
-      - Kaizen-Spartan-POC
+      - cicd-demo
       filterType: SELECTED
     envFilter:
+      entityNames:
+      - cicd-demo-env
       filterTypes:
-      - NON_PROD
+      - SELECTED
+useKubernetesDelegate: true

@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+password: gcpkms:speedlayer-user
+url: https://artifactory.aws.nbscloud.co.uk/artifactory
+username: speedlayer-user

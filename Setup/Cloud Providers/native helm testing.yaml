@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+delegateSelectors:
+- kaizen-testing-delegate-vmevcr-0
+skipValidation: false
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - kaizen-testing-app
+      filterType: SELECTED
+    envFilter:
+      entityNames:
+      - native helm deployment
+      filterTypes:
+      - SELECTED
+useKubernetesDelegate: true

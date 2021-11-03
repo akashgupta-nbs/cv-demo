@@ -1,0 +1,29 @@
+harnessApiVersion: '1.0'
+type: PROMETHEUS
+prometheusUrl: http://prometheus-ui.nbs-shared-cbj-dev.aws.nbscloud.co.uk/
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - Kaizen-java
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      filterType: ALL
+    envFilter:
+      filterTypes:
+      - NON_PROD
+  - appFilter:
+      entityNames:
+      - Kaizen-java
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD

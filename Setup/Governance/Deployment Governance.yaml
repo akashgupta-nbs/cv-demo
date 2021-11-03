@@ -12,6 +12,7 @@ timeRangeBasedFreezeConfigs:
   applicable: false
   name: custom-freeze
   timeRange:
+    durationBased: false
     from: '1619619761967'
     to: '1619623361967'
   userGroups:
@@ -26,6 +27,7 @@ timeRangeBasedFreezeConfigs:
   applicable: false
   name: kaizen-delpoyment-test-freeze
   timeRange:
+    durationBased: false
     from: '1621294381070'
     to: '1622161980214'
   userGroups:

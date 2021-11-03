@@ -4,7 +4,8 @@ branch: master
 delegateSelectors:
 - sl-onprem-dvk
 keyAuth: false
-password: gcpkms:sl-sap-accountdetails-service
+password: gcpkms:sl-tfs-service
+providerType: GIT
 url: https://tfs2017.nbsnet.co.uk/tfs/ColC/SpeedLayer/_git/sl-sap-accountdetails-service
 urlType: REPO
 username: svcspeedlayerjenkins

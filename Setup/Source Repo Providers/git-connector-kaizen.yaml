@@ -1,0 +1,11 @@
+harnessApiVersion: '1.0'
+type: GIT
+authorEmailId: kaizen.bot@harness.io
+authorName: Kaizen Bot
+branch: master
+commitMessage: Kaizen Commit
+keyAuth: true
+providerType: GIT
+sshKeyName: kaizen-github-config-ssh
+url: git@github.com:P434585/kaizen-java-bg-trigger.git
+urlType: REPO

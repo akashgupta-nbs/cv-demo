@@ -1,11 +1,9 @@
 harnessApiVersion: '1.0'
-type: GIT
-branch: SISLE-5140-Harness-CD-config
-keyAuth: true
-providerType: GIT
-sshKeyName: sl-ssh-key
-url: git@github.com:nationwide-building-society/sl-deploy-environment-provisioning.git
-urlType: REPO
+type: KUBERNETES_CLUSTER
+delegateName: speedlayer-dev
+delegateSelectors:
+- speedlayer-dev
+skipValidation: false
 usageRestrictions:
   appEnvRestrictions:
   - appFilter:
@@ -18,3 +16,4 @@ usageRestrictions:
     envFilter:
       filterTypes:
       - NON_PROD
+useKubernetesDelegate: true

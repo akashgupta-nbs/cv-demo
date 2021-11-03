@@ -1,0 +1,5 @@
+harnessApiVersion: '1.0'
+type: JIRA
+baseUrl: https://jira.nbs.adaptavist.com
+password: gcpkms:jira-password
+username: Jenkins-Jira-Serv-Acc

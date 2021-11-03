@@ -4,6 +4,7 @@ branch: CARG-690-test-harness-infra-update
 delegateSelectors:
 - jp-test-delegate
 keyAuth: true
+providerType: GIT
 sshKeyName: kaizen-github-config-ssh
 url: git@github.com:nationwide-building-society/epaas-eks-infra.git
 urlType: REPO

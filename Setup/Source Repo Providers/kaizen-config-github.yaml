@@ -1,19 +1,15 @@
 harnessApiVersion: '1.0'
 type: GIT
-branch: harness-prom
-delegateSelectors:
-- kaizen-eng5-delegate-vmevcr-0
+branch: config
 keyAuth: true
 providerType: GIT
 sshKeyName: kaizen-github-config-ssh
-url: git@github.com:nationwide-building-society/cicd-helloworld-java.git
+url: git@github.com:P434585/kaizen-java-bg-trigger.git
 urlType: REPO
 usageRestrictions:
   appEnvRestrictions:
   - appFilter:
-      entityNames:
-      - Kaizen-Spartan-POC
-      filterType: SELECTED
+      filterType: ALL
     envFilter:
       filterTypes:
       - NON_PROD

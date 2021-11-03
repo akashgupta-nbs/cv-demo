@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+delegateSelectors:
+- load
+skipValidation: true
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - kaizen-load-test
+      filterType: SELECTED
+    envFilter:
+      entityNames:
+      - stress-test-ns64
+      filterTypes:
+      - SELECTED
+useKubernetesDelegate: true
