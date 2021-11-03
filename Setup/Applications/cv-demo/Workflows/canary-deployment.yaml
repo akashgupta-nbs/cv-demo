@@ -58,6 +58,22 @@ phases:
         customThresholdRefId: 088d468e864c4969accf7868006b568c
         executeWithPreviousSteps: false
         includePreviousPhaseNodes: false
+        metric-thresholds:
+        - metricName: 'swap memory '
+          stateType: PROMETHEUS
+          thresholdType: ANOMALOUS
+          thresholds:
+            customThresholds:
+            - comparisonType: ABSOLUTE
+              customThresholdType: ANOMALOUS
+              ml: 0.1
+              thresholdCriteria:
+                actionToTake: FAIL_IMMEDIATELY
+                occurrences: 0
+              thresholdType: ALERT_WHEN_HIGHER
+            metricName: 'swap memory '
+            metricType: INFRA
+          transactionName: infra
         templateUuid: null
         templateVariables: null
         templateVersion: null

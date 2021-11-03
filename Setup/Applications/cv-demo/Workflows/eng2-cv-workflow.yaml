@@ -47,6 +47,22 @@ phases:
         analysisTolerance: LOW
         comparisonStrategy: COMPARE_WITH_CURRENT
         customThresholdRefId: 6bd518060eeb4fceb75b8c061a9ac168
+        metric-thresholds:
+        - metricName: CPU metric
+          stateType: PROMETHEUS
+          thresholdType: ANOMALOUS
+          thresholds:
+            customThresholds:
+            - comparisonType: ABSOLUTE
+              customThresholdType: ANOMALOUS
+              ml: 0.2
+              thresholdCriteria:
+                actionToTake: FAIL_IMMEDIATELY
+                occurrences: 0
+              thresholdType: ALERT_WHEN_HIGHER
+            metricName: CPU metric
+            metricType: INFRA
+          transactionName: infra
         templateUuid: null
         templateVariables: null
         templateVersion: null
