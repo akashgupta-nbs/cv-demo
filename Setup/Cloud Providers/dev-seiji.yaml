@@ -10,13 +10,8 @@ usageRestrictions:
       - FLS
       filterType: SELECTED
     envFilter:
-      filterTypes:
-      - PROD
-  - appFilter:
       entityNames:
-      - FLS
-      filterType: SELECTED
-    envFilter:
+      - dev
       filterTypes:
-      - NON_PROD
+      - SELECTED
 useKubernetesDelegate: true
