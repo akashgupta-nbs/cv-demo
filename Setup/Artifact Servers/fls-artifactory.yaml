@@ -1,5 +1,5 @@
 harnessApiVersion: '1.0'
 type: ARTIFACTORY
 password: gcpkms:fls-ci-artifactory
-url: https://artifactory.aws.nbscloud.co.uk/artifactory/
+url: https://artifactory.aws.nbscloud.co.uk/artifactory
 username: fls-ci
