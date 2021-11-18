@@ -1,5 +1,7 @@
 harnessApiVersion: '1.0'
 type: ARTIFACTORY
+delegateSelectors:
+- fls-dev-chat
 password: gcpkms:fls-ci-artifactory
 url: https://artifactory.aws.nbscloud.co.uk/artifactory
 username: fls-ci
