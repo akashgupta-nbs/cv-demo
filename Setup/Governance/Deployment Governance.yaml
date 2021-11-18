@@ -14,6 +14,7 @@ timeRangeBasedFreezeConfigs:
   timeRange:
     durationBased: false
     from: '1619619761967'
+    timeZone: Europe/London
     to: '1619623361967'
   userGroups:
   - Account Administrator
@@ -29,6 +30,7 @@ timeRangeBasedFreezeConfigs:
   timeRange:
     durationBased: false
     from: '1621294381070'
+    timeZone: Europe/London
     to: '1622161980214'
   userGroups:
   - CD Project Team
