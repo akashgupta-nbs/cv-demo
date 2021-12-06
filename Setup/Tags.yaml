@@ -11,3 +11,4 @@ tag:
 - name: group
 - name: newone
 - name: non-prod
+- name: paymentscore-dev
