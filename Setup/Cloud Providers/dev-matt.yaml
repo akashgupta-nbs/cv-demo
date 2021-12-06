@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+delegateSelectors:
+- fls-dev-matt
+skipValidation: true
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
+      entityNames:
+      - dev
+      filterTypes:
+      - SELECTED
+useKubernetesDelegate: true
