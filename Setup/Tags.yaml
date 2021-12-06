@@ -6,6 +6,7 @@ tag:
   - Bar
   name: Test2
 - name: blue
+- name: build
 - name: eks-epaas-test-gatekeeper
 - name: fls-dev
 - name: group
