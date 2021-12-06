@@ -1,0 +1,17 @@
+harnessApiVersion: '1.0'
+type: KUBERNETES_CLUSTER
+delegateSelectors:
+- paymentscore-dev-epaas-eks-121
+skipValidation: false
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - Payments
+      filterType: SELECTED
+    envFilter:
+      entityNames:
+      - paymentscore-env
+      filterTypes:
+      - SELECTED
+useKubernetesDelegate: true
