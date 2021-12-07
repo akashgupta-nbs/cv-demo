@@ -1,5 +1,7 @@
 harnessApiVersion: '1.0'
 type: DOCKER
+delegateSelectors:
+- paymentscore
 password: gcpkms:paymod-ci
-url: https://artifactory.aws.nbscloud.co.uk/artifactory/paymod-docker/
+url: https://artifactory.aws.nbscloud.co.uk/artifactory/
 username: paymod-ci
