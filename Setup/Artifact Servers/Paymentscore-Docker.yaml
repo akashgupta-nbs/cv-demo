@@ -3,5 +3,5 @@ type: ARTIFACTORY
 delegateSelectors:
 - paymentscore
 password: gcpkms:paymod-ci
-url: https://artifactory.aws.nbscloud.co.uk:443/artifactory/paymod-docker/
+url: https://artifactory.aws.nbscloud.co.uk/artifactory/paymod-docker/
 username: paymod-ci
