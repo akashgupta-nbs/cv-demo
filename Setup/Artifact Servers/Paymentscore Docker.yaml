@@ -1,0 +1,7 @@
+harnessApiVersion: '1.0'
+type: ARTIFACTORY
+delegateSelectors:
+- paymentscore
+password: gcpkms:paymod-ci
+url: https://artifactory.aws.nbscloud.co.uk/artifactory
+username: paymod-ci
