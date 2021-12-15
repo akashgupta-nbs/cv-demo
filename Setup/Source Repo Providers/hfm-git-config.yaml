@@ -1,0 +1,24 @@
+harnessApiVersion: '1.0'
+type: GIT
+branch: main
+keyAuth: true
+providerType: GIT
+sshKeyName: matt-temp-harness-2
+url: git@github.com:nbs-digital/hfm-harness.git
+urlType: REPO
+usageRestrictions:
+  appEnvRestrictions:
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - PROD
+  - appFilter:
+      entityNames:
+      - FLS
+      filterType: SELECTED
+    envFilter:
+      filterTypes:
+      - NON_PROD
