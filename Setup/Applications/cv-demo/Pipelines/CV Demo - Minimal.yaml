@@ -25,3 +25,4 @@ pipelineStages:
   workflowVariables:
   - name: verify_canary
     value: 'no'
+rollbackPreviousStages: false

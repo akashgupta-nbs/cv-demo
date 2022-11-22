@@ -41,3 +41,4 @@ pipelineStages:
     type: DO_NOT_SKIP
   stageName: STAGE 1
   workflowName: cv-demo-ui
+rollbackPreviousStages: false
