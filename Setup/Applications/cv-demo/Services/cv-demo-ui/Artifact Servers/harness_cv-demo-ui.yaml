@@ -1,4 +1,5 @@
 harnessApiVersion: '1.0'
 type: DOCKER
+collectionEnabled: true
 imageName: harness/cv-demo-ui
 serverName: kaizen-docker
